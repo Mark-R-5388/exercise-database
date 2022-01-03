@@ -3,41 +3,65 @@
     {
       "id": 1,
       "name": "Squat",
-      "exercises": ["barbell back squat, goblet squat, bodyweight squat"]
+      "exercises": [
+        { "name": "barbell back squat", "id": 1 },
+        { "name": "barbell back squat", "id": 2 },
+        { "name": "bodyweight squat", "id": 3 }
+      ]
     },
     {
       "id": 2,
       "name": "Hinge",
-      "exercises": ["deadlift", "kettlebell swing", "Romanian Deadlift"]
+      "exercises": [
+        { "name": "deadlift", "id": 1 },
+        { "name": "kettlebell swing", "id": 2 },
+        { "name": "romanian deadlift", "id": 3 }
+      ]
     },
     {
       "id": 3,
       "name": "Vertical Push",
       "exercises": [
-        "Push Press",
-        "seated overhead press",
-        "dumbell overhead press"
+        { "name": "push press", "id": 1 },
+        { "name": "seated overhead press", "id": 2 },
+        { "name": "standing overhead press", "id": 3 }
       ]
     },
     {
       "id": 4,
       "name": "Vertical Pull",
-      "exercises": ["pulldowns", "pull up", "chin up"]
+      "exercises": [
+        { "name": "pulldowns", "id": 1 },
+        { "name": "pull up", "id": 2 },
+        { "name": "chin up", "id": 3 }
+      ]
     },
     {
       "id": 5,
       "name": "Horizontal Push",
-      "exercises": ["push up", "barbell bench press", "dumbell bench press"]
+      "exercises": [
+        { "name": "push up", "id": 1 },
+        { "name": "barbell bench press", "id": 2 },
+        { "name": "dumbbell bench press", "id": 3 }
+      ]
     },
     {
       "id": 6,
       "name": "Horizontal Pull",
-      "exercises": ["barbell row", "cable row", "dumbbell row"]
+      "exercises": [
+        { "name": "barbell row", "id": 1 },
+        { "name": "cable row", "id": 2 },
+        { "name": "dumbbell row", "id": 3 }
+      ]
     },
     {
       "id": 7,
       "name": "Core",
-      "exercises": ["plank", "ab wheel rollout", "sit up"]
+      "exercises": [
+        { "name": "plank", "id": 1 },
+        { "name": "ab wheel rollout", "id": 2 },
+        { "name": "sit up", "id": 3 }
+      ]
     }
   ]
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ExerciseList from "./components/ExerciseList";
 
 const ExerciseCategories = ({ title }) => {
   const [exerciseCategories, setExerciseCategories] = useState(null);
@@ -11,16 +12,10 @@ const ExerciseCategories = ({ title }) => {
 
   return (
     <div>
-      <h2 className="title">{title}</h2>
-      <div className="exercise-categories-container">
-        {exerciseCategories &&
-          exerciseCategories.map((category) => (
-            <div className="exercise-category-container" key={category.id}>
-              <h2>{category.name}</h2>
-              <p>{category.exercises}</p>
-            </div>
-          ))}
-      </div>
+      <h2 className="exercise-category-title">{title}</h2>
+      {exerciseCategories && (
+        <ExerciseList exerciseCategories={exerciseCategories} />
+      )}
     </div>
   );
 };
