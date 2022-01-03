@@ -1,0 +1,43 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Squat",
+      "exercises": ["barbell back squat, goblet squat, bodyweight squat"]
+    },
+    {
+      "id": 2,
+      "name": "Hinge",
+      "exercises": ["deadlift", "kettlebell swing", "Romanian Deadlift"]
+    },
+    {
+      "id": 3,
+      "name": "Vertical Push",
+      "exercises": [
+        "Push Press",
+        "seated overhead press",
+        "dumbell overhead press"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Vertical Pull",
+      "exercises": ["pulldowns", "pull up", "chin up"]
+    },
+    {
+      "id": 5,
+      "name": "Horizontal Push",
+      "exercises": ["push up", "barbell bench press", "dumbell bench press"]
+    },
+    {
+      "id": 6,
+      "name": "Horizontal Pull",
+      "exercises": ["barbell row", "cable row", "dumbbell row"]
+    },
+    {
+      "id": 7,
+      "name": "Core",
+      "exercises": ["plank", "ab wheel rollout", "sit up"]
+    }
+  ]
+}

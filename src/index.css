@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* container */
+.container {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  background: rgb(146, 188, 252);
+}
+.navbar-flex-container {
+  margin: 0 auto;
+  border: 1px solid green;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 0.75em;
+}
+
+/* Exercise Categories */
+.exercise-categories-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.exercise-category-container {
+  background: rgb(250, 250, 250);
+  width: 18em;
+}
