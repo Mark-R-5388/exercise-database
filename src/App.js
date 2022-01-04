@@ -6,7 +6,7 @@ function App() {
     <div>
       <Navbar />
       <div className="container">
-        <ExerciseCategories title="Exercise Categories" />
+        <ExerciseCategories />
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ const ExerciseExamples = ({ category }) => {
 
   return (
     <ul className="exercise-list">
+      <h3>Exercise Examples</h3>
       {exerciseArray.map((exercise) => (
         <li className="exercise-example" key={exercise.id}>
           {exercise.name}

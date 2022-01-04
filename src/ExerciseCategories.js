@@ -1,20 +1,23 @@
 import { useState, useEffect } from "react";
 import ExerciseList from "./components/ExerciseList";
+import useFetch from "./useFetch";
 
-const ExerciseCategories = ({ title }) => {
-  const [exerciseCategories, setExerciseCategories] = useState(null);
-
-  useEffect(() => {
-    fetch("http://localhost:8000/categories")
-      .then((res) => res.json())
-      .then((data) => setExerciseCategories(data));
-  }, []);
+const ExerciseCategories = () => {
+  const {
+    data: exerciseCategories,
+    isLoading,
+    error,
+  } = useFetch("http://localhost:8000/categories");
 
   return (
     <div>
-      <h2 className="exercise-category-title">{title}</h2>
+      {error && <div>{error}</div>}
+      {isLoading && <div>Loading...</div>}
       {exerciseCategories && (
-        <ExerciseList exerciseCategories={exerciseCategories} />
+        <ExerciseList
+          title="Exercise Categories"
+          exerciseCategories={exerciseCategories}
+        />
       )}
     </div>
   );
