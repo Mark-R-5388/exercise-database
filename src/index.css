@@ -1,5 +1,130 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+  --main_color: #f9f7f7;
+  --secondary_color: #7ab6ff;
+
+  --button_color: #dbe2ef;
+  --text_color: #2e2e2e;
+  --hover_color: #2a5283;
+}
+
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text_color);
+  background-color: var(--secondary_color);
+}
+
+/* NavBar */
+.navbar_background {
+  background: var(--main_color);
+}
+
+.navbar_container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 75em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.navbar_links-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_link {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--text_color);
+  margin: 0 0.75em;
+}
+
+.navbar_first-link {
+  margin-left: 0;
+}
+
+.navbar_last-link {
+  margin-right: 0;
+}
+
+.navbar_link:hover,
+.navbar_link:focus {
+  color: var(--hover_color);
+  padding-bottom: 0.15em;
+  border-bottom: 2px solid var(--secondary_color);
+}
+
+/* Main Container */
+.container_main {
+  /* background: var(--secondary_color); */
+  color: var(--text_color);
+}
+
+/* Home Page */
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 50em;
+  padding: 1em;
+}
+.title,
+.subtitle {
+  margin: 20px 0;
+
+  text-align: center;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.paragraph {
+  margin: 0 0 20px 0;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Exercise Categories */
+.exercise-categories_container {
+  box-sizing: border-box;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1em;
+}
+.exercise-category_container {
+  max-width: 30%;
+}
+.exercise-category_container-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image {
+  object-fit: stretch;
+  width: 100%;
+  height: 100%;
 }

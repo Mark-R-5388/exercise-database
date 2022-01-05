@@ -2,22 +2,28 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
-      <div>
-        <h3>Exercise Database</h3>
-        <ul>
+    <nav className='navbar_background'>
+      <div className='navbar_container'>
+        <p className='navbar_logo'>Exercise Database</p>
+        <ul className='navbar_links-container'>
           <li>
-            <Link to='/'> Home</Link>
+            <Link className='navbar_link navbar_first-link' to='/'>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to='/about'>About</Link>
+            <Link className='navbar_link' to='/about'>
+              About
+            </Link>
           </li>
           <li>
-            <Link to='/exercises'>Exercises</Link>
+            <Link className='navbar_link navbar_last-link' to='/exercises'>
+              Exercises
+            </Link>
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   )
 }
 

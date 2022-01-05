@@ -1,23 +1,23 @@
 const About = () => {
   return (
-    <div className="home">
-      <h1> About Page</h1>
-      <p>
+    <div className='container'>
+      <h2 className='title'> About Page</h2>
+      <p className='paragraph'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi
         incidunt doloribus tempora totam aliquid ullam atque voluptas, dolores
         natus.
       </p>
 
-      <h2>A little more</h2>
+      <h3 className='subtitle'>A little more</h3>
 
-      <p>
+      <p className='paragraph'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur,
         quibusdam repudiandae perspiciatis aliquam molestias recusandae
         cupiditate, dolorem dolores obcaecati nesciunt, repellendus officia
         odit! Maiores consequatur, odit natus at aspernatur quasi!
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
