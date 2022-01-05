@@ -1,7 +1,9 @@
 import Navbar from "./components/Navbar";
 import Home from "./Home";
-import ExerciseCategories from "./ExerciseCategories";
+import Exercises from "./Exercises";
 import About from "./About";
+import ExerciseDetails from "./ExerciseDetails";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -14,11 +16,14 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/exercises">
-              <ExerciseCategories />
+            <Route exact path="/exercises">
+              <Exercises />
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/exercises/:id">
+              <ExerciseDetails />
             </Route>
           </Switch>
         </div>

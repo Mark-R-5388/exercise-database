@@ -1,4 +1,5 @@
-import ExerciseExamples from "./ExerciseExamples.js";
+import { Link } from "react-router-dom";
+// import ExerciseExamples from "./ExerciseExamples.js";
 
 const ExerciseList = ({ exerciseCategories, title }) => {
   return (
@@ -8,8 +9,10 @@ const ExerciseList = ({ exerciseCategories, title }) => {
         {exerciseCategories &&
           exerciseCategories.map((category) => (
             <div className="exercise-category-container" key={category.id}>
-              <h2 className="category-name">{category.name}</h2>
-              <ExerciseExamples category={category} />
+              <Link to={`/exercises/${category.id}`}>
+                <h2 className="category-name">{category.name}</h2>
+                {/* <ExerciseExamples category={category} /> */}
+              </Link>
             </div>
           ))}
       </div>

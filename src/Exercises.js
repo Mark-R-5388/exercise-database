@@ -1,8 +1,7 @@
-import { useState, useEffect } from "react";
 import ExerciseList from "./components/ExerciseList";
 import useFetch from "./useFetch";
 
-const ExerciseCategories = () => {
+const Exercises = () => {
   const {
     data: exerciseCategories,
     isLoading,
@@ -23,4 +22,4 @@ const ExerciseCategories = () => {
   );
 };
 
-export default ExerciseCategories;
+export default Exercises;
