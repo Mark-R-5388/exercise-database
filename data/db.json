@@ -4,63 +4,126 @@
       "id": "Squat",
       "name": "Squat",
       "exercises": [
-        { "name": "barbell back squat", "id": 1 },
-        { "name": "barbell back squat", "id": 2 },
-        { "name": "bodyweight squat", "id": 3 }
+        {
+          "name": "barbell back squat",
+          "id": 1
+        },
+        {
+          "name": "barbell back squat",
+          "id": 2
+        },
+        {
+          "name": "bodyweight squat",
+          "id": 3
+        }
       ]
     },
     {
       "id": "Hinge",
       "name": "Hinge",
       "exercises": [
-        { "name": "deadlift", "id": 1 },
-        { "name": "kettlebell swing", "id": 2 },
-        { "name": "romanian deadlift", "id": 3 }
+        {
+          "name": "deadlift",
+          "id": 1
+        },
+        {
+          "name": "kettlebell swing",
+          "id": 2
+        },
+        {
+          "name": "romanian deadlift",
+          "id": 3
+        }
       ]
     },
     {
       "id": "Vertical-Push",
       "name": "Vertical Push",
       "exercises": [
-        { "name": "push press", "id": 1 },
-        { "name": "seated overhead press", "id": 2 },
-        { "name": "standing overhead press", "id": 3 }
+        {
+          "name": "push press",
+          "id": 1
+        },
+        {
+          "name": "seated overhead press",
+          "id": 2
+        },
+        {
+          "name": "standing overhead press",
+          "id": 3
+        }
       ]
     },
     {
       "id": "Vertical-Pull",
       "name": "Vertical Pull",
       "exercises": [
-        { "name": "pulldowns", "id": 1 },
-        { "name": "pull up", "id": 2 },
-        { "name": "chin up", "id": 3 }
+        {
+          "name": "pulldowns",
+          "id": 1
+        },
+        {
+          "name": "pull up",
+          "id": 2
+        },
+        {
+          "name": "chin up",
+          "id": 3
+        }
       ]
     },
     {
       "id": "Horzontal-Push",
       "name": "Horizontal Push",
       "exercises": [
-        { "name": "push up", "id": 1 },
-        { "name": "barbell bench press", "id": 2 },
-        { "name": "dumbbell bench press", "id": 3 }
+        {
+          "name": "push up",
+          "id": 1
+        },
+        {
+          "name": "barbell bench press",
+          "id": 2
+        },
+        {
+          "name": "dumbbell bench press",
+          "id": 3
+        }
       ]
     },
     {
       "id": "Horizontal-Pull",
       "name": "Horizontal Pull",
       "exercises": [
-        { "name": "barbell row", "id": 1 },
-        { "name": "cable row", "id": 2 },
-        { "name": "dumbbell row", "id": 3 }
+        {
+          "name": "barbell row",
+          "id": 1
+        },
+        {
+          "name": "cable row",
+          "id": 2
+        },
+        {
+          "name": "dumbbell row",
+          "id": 3
+        }
       ]
     },
     {
       "id": "Core",
       "name": "Core",
       "exercises": [
-        { "name": "plank", "id": 1 },
-        { "name": "ab wheel rollout", "id": 2 },
-        { "name": "sit up", "id": 3 }
+        {
+          "name": "plank",
+          "id": 1
+        },
+        {
+          "name": "ab wheel rollout",
+          "id": 2
+        },
+        {
+          "name": "sit up",
+          "id": 3
+        }
       ]
     }
   ]
