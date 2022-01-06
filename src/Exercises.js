@@ -1,12 +1,12 @@
-import ExerciseList from "./components/ExerciseList";
-import useFetch from "./useFetch";
+import ExerciseList from './components/ExerciseList'
+import useFetch from './useFetch'
 
 const Exercises = () => {
   const {
     data: exerciseCategories,
     isLoading,
     error,
-  } = useFetch("http://localhost:8000/categories");
+  } = useFetch('https://mark-r-5388.github.io/exercise-database/categories')
 
   return (
     <div>
@@ -14,12 +14,12 @@ const Exercises = () => {
       {isLoading && <div>Loading...</div>}
       {exerciseCategories && (
         <ExerciseList
-          title="Exercise Categories"
+          title='Exercise Categories'
           exerciseCategories={exerciseCategories}
         />
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Exercises;
+export default Exercises

@@ -7,7 +7,10 @@ const ExerciseDetails = () => {
     data: category,
     error,
     isLoading,
-  } = useFetch('http://localhost:8000/categories/' + id)
+  } = useFetch(
+    'https://mark-r-5388.github.io/exercise-database/#/categories/categories/' +
+      id
+  )
 
   return (
     <main className='container'>
