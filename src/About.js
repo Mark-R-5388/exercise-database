@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className='container'>
+    <main className='container'>
       <h2 className='title'> About Page</h2>
       <p className='paragraph'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quasi
@@ -16,7 +16,7 @@ const About = () => {
         cupiditate, dolorem dolores obcaecati nesciunt, repellendus officia
         odit! Maiores consequatur, odit natus at aspernatur quasi!
       </p>
-    </div>
+    </main>
   )
 }
 

@@ -3,7 +3,7 @@
     {
       "id": "Squat",
       "name": "Squat",
-      "imagename": "squat",
+
       "exercises": [
         {
           "name": "barbell back squat",
@@ -22,7 +22,7 @@
     {
       "id": "Hinge",
       "name": "Hinge",
-      "imagename": "hinge",
+
       "exercises": [
         {
           "name": "deadlift",
@@ -41,7 +41,7 @@
     {
       "id": "Vertical-Push",
       "name": "Vertical Push",
-      "imagename": "verticalPush",
+
       "exercises": [
         {
           "name": "push press",
@@ -60,7 +60,7 @@
     {
       "id": "Vertical-Pull",
       "name": "Vertical Pull",
-      "imagename": "verticalPull",
+
       "exercises": [
         {
           "name": "pulldowns",
@@ -79,7 +79,7 @@
     {
       "id": "Horzontal-Push",
       "name": "Horizontal Push",
-      "imagename": "horizontalPush",
+
       "exercises": [
         {
           "name": "push up",
@@ -98,7 +98,7 @@
     {
       "id": "Horizontal-Pull",
       "name": "Horizontal Pull",
-      "imagename": "horizontalPull",
+
       "exercises": [
         {
           "name": "barbell row",
@@ -117,7 +117,7 @@
     {
       "id": "Core",
       "name": "Core",
-      "imagename": "core",
+
       "exercises": [
         {
           "name": "plank",
